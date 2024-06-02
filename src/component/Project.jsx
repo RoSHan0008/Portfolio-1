@@ -1,7 +1,7 @@
 import Navbar from "./Navbar"
-import weatherAPI from '../assets/Projects/Weather API/weatherAPI.png'
-import CountryApp from "../assets/Projects/Country App/CountryguideAPP.png"
-import Gymweb from "../assets/Projects/Gym website/gymweb.webp"
+// import weatherAPI from '../assets/Projects/Weather API/weatherAPI.png'
+// import CountryApp from "../assets/Projects/Country App/CountryguideAPP.png"
+// import Gymweb from "../assets/Projects/Gym website/gymweb.webp"
 
 export default function Project(){
     return(
@@ -12,12 +12,12 @@ export default function Project(){
             <div className="flex justify-center items-center">
                 <div className="w-[400px] h-[600px] ml-28  max-h-[600px]  ml-10">
                     <div class="project-container project-card p-8 bg-white rounded-lg shadow-md">
-                        <img
+                        {/* <img
                             src={weatherAPI}
                             alt="Weather API"
                             loading="lazy"
                             class="project-pic w-full h-auto rounded-lg"
-                        />
+                        /> */}
                         <h3 class="project-title text-xl font-semibold mt-4">Weather Api</h3>
                             <p class="project-details mt-2 text-gray-700">
                             A weather API app delivers real-time weather updates and forecasts to users through a simple
@@ -29,12 +29,12 @@ export default function Project(){
                 </div>
                 <div className="w-[400px] h-[600px]  max-h-[600px] ml-10">
                         <div class="project-container project-card p-8 bg-white rounded-lg shadow-md">
-                            <img
+                            {/* <img
                                 src={CountryApp}
                                 alt="Country Guide App"
                                 loading="lazy"
                                 class="project-pic w-full h-auto rounded-lg"
-                            />
+                            /> */}
                             <h3 class="project-title text-xl font-semibold mt-4">Country Guide App</h3>
                                 <p class="project-details mt-2 text-gray-700">
                                 A country guide app is your passport to global exploration. It offers a snapshot of each country's culture, history, attractions, and practical
@@ -48,12 +48,12 @@ export default function Project(){
                         <div className="w-[400px] h-[600px] max-h-[600px] ml-10">
                     
                         <div class="project-container project-card p-8 bg-white rounded-lg pt-10 shadow-md">
-                            <img
+                            {/* <img
                                 src={Gymweb}
                                 alt="Gym Website"
                                 loading="lazy"
                                 class="project-pic w-full h-auto rounded-lg"
-                            />
+                            /> */}
                             <h3 class="project-title text-xl font-semibold mt-4">Gym Website</h3>
                                 <p class="project-details mt-2 text-gray-700">
                                 Using HTML for structure, CSS for styling, and JavaScript for interactivity, this website can be visually appealing, responsive, and user-friendly. JavaScript can enhance functionality, such
